@@ -4,7 +4,6 @@
 #include <iostream>
 #include <QApplication>
 #include <QWidget>
-#include "user_interface/ui_core.hpp"
 
 int main(int argc, char *argv[]){
     std::cout << "Hello, World!" << std::endl;
