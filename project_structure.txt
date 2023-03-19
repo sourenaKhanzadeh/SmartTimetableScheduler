@@ -1,0 +1,55 @@
+SmartTimetableScheduler/
+│
+├── src/
+│   ├── main.cpp
+│   ├── data/
+│   │   ├── data_input.cpp
+│   │   ├── data_input.h
+│   │   ├── data_preprocessing.cpp
+│   │   ├── data_preprocessing.h
+│   │   └── data_structures.h
+│   │
+│   ├── genetic_algorithm/
+│   │   ├── ga_core.cpp
+│   │   ├── ga_core.h
+│   │   ├── ga_encoding.h
+│   │   ├── ga_fitness.cpp
+│   │   ├── ga_fitness.h
+│   │   ├── ga_selection.cpp
+│   │   ├── ga_selection.h
+│   │   ├── ga_crossover.cpp
+│   │   ├── ga_crossover.h
+│   │   ├── ga_mutation.cpp
+│   │   └── ga_mutation.h
+│   │
+│   └── user_interface/
+│       ├── ui_core.cpp
+│       ├── ui_core.h
+│       ├── ui_command_line.cpp
+│       ├── ui_command_line.h
+│       ├── ui_desktop.cpp
+│       └── ui_desktop.h
+│
+├── tests/
+│   ├── test_data_input.cpp
+│   ├── test_data_preprocessing.cpp
+│   ├── test_genetic_algorithm.cpp
+│   └── test_user_interface.cpp
+│
+├── data/
+│   ├── sample_data.csv
+│   └── sample_data.xlsx
+│
+├── lib/
+│   └── galib/ (if using an external GA library)
+│
+├── doc/
+│   ├── user_guide.md
+│   ├── developer_guide.md
+│   └── api_reference.md
+│
+├── build/
+│
+├── .gitignore
+├── CMakeLists.txt (or other build system files)
+└── README.md
