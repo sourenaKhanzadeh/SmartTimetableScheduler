@@ -10,11 +10,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 cmake_policy(SET CMP0079 NEW)
 
-find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
 
 add_subdirectory(src)
 
-target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Widgets)
+target_link_libraries(${PROJECT_NAME})
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     "${PROJECT_BINARY_DIR}"
